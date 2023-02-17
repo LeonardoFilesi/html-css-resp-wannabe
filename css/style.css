@@ -108,6 +108,7 @@ img {
     margin-bottom: 1rem;
 }
 
+
 /* WHY US SECTION */
 .why-us {
     margin-bottom: 3rem;
@@ -135,4 +136,28 @@ img {
         width: 100%;
     }
     
+}
+
+@media all and (max-width: 480px) {
+    .row {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .steps .col, .lessons .col, .why-us .col-right, .why-us .col-right, .why-us .col-left {
+        width: 100%;
+    }
+
+    .card, .col-left {
+        margin-bottom: 3rem;
+    }
+
+    .why-us {
+        background-color: rgb(24, 24, 27);
+    }
+
+    .steps, .lessons, .why-us {
+        margin: 0;
+        padding: 3rem 0;
+    }
 }
